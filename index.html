@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remya Furniture E-commerce website</title>
+    <link rel="icon" href="Assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html"> <img src="Assets/logo.png"  alt="logo" width="100px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product1.html">Product</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Assets/cart.png" alt="cart" width="30px" height="30px"></a>
+                <img src="Assets/menu.png" alt="menu" class="menu-icon"  onclick="menutoggle()">
+            </div>
+            <div class="row">       
+                <div class="col-2">
+                    <h1> Remya Furniture </h1>
+                    <p>Explore our exquisite collection of finely crafted furniture pieces, <br>each designed to bring comfort, style, and elegance into your home.</p>
+                    <a href="product1.html" class="btn">Explore Now &#8594; </a>
+                </div>
+                <div class="col-2">
+                    <img src="Assets/home_img.png" alt="furniture image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---Features catogories--- -->
+    <div class="categories">
+        <div class="small-container">
+                <h2 class="title">Explore Top Picks of Summer Fest Sale!</h2>
+                <div class="view-all">
+                    <a href="product1.html"><button class="btn"> View all &#8594; 
+                    </button></a>
+                </div>
+            <div class="row">
+                <div class="col-3">
+                    <a href="product-details.html"><img src="Assets/top_pick1.png" alt="image2"></a>
+                </div>
+                <div class="col-3">
+                    <a href="product-details.html"><img src="Assets/top_pick2.png" alt="image4"></a>
+                </div>
+                <div class="col-3">
+                    <a href="product-details.html"><img src="Assets/top_pick3.png" alt="image5"></a>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- ----featured products -->
+    <div class="small-container">
+        <h2 class="title">Featured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/feature1.png" alt="Wardrobe"></a>
+                <a href="product-details.html"><h4>Willy 3 Door Wardrobe With Mirror (New Wenge) </h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;15,700 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;27,000</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/feature2.png" alt="Dresser"></a>
+                <a href="product-details.html"><h4>Max Engineered Wood Dresser With Mirror (Classic Walnut) </h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;16,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;32,900</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/feature3.png" alt="Nightstand"></a>
+                <a href="product-details.html"><h4>Meta Engineered Wood Nightstand (Frosty White) </h4>
+                <div class="rating"></a>
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;4,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;9,900</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/feature4.png" alt="Recliner"></a>
+               <a href="product-details.html"> <h4>Skelton 3 Seater Recliner (Velvet Brown) </h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;40,000 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;80,000</span ></p>
+            </div>
+        </div>
+        <h2 class="title">Latest products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest1.png" alt="Coffee table"></a>
+                <a href="product-details.html"><h4>Moxie Coffee Table (Urban Walnut)</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;4,500 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;7,900</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest2.png" alt="Book case"></a>
+                <a href="product-details.html"><h4>Cary Book Case (New Wenge)</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;5,300 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;8,500</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest3.png" alt="sofa"></a>
+                <a href="product-details.html"><h4>Svelte 2 Seater Sofa With Cushion</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;14,000 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;38,900</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest4.png" alt="TV stand"></a>
+                <a href="product-details.html"><h4>Caspian Wall Unit (Walnut)</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;7,500 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;9,000</span ></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest5.png" alt="table"></a>
+                <a href="product-details.html"><h4>Alpine Shoe Cabinet (classic Walnut)</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;4,500 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;8,000</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest6.png" alt="table"></a>
+                <a href="product-details.html"><h4>Dalton Office Table (High Pine)</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;9,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;13,500</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest7.png" alt="Bed"></a>
+                <a href="product-details.html"><h4>Mozart Queen Bed With Storage</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;19,700 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;30,500</span ></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/latest8.png" alt="office chair"></a>
+                <a href="product-details.html"><h4>Giza Mid Back Office Chair</h4></a>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;5,300 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;9,000</span ></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----offer--- -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="product-details.html"><img src="Assets/offer_img.png" alt="Study Table" class="offer-img"></a>
+                </div>
+                <div class="col-2">
+                    <p>Design Your Dream Bed In A Snap</p>
+                    <h1>Modular Beds</h1>
+                    <p class="small">The modular bed design offers resilient construction and beautiful designs for long-term usage.</p>
+                    <a href="product-details.html" class="btn">Buy now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----Testimonial--- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Last 3 years I'm using a king size bed along with a few other articles. Excellent products! Magnificient look!</p>
+                    <div class="rating">
+                       <img src="Assets/rating_stars.png" alt="">
+                    </div>
+                    <img  class="profileImg" src="Assets/profile_img1.png" alt="user1">
+                    <h3>Anvit</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I like the products very much.Overall quality and finish is awesome and installation is fast</p>
+                    <div class="rating">
+                        <img src="Assets/rating_stars.png" alt="">
+                    </div>
+                    <img class="profileImg" src="Assets/profile_img2.png" alt="user1">
+                    <h3>Ezhumalai</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Very satisfying good. Recommend to others too.</p>
+                    <div class="rating">
+                       <img src="Assets/rating_stars.png" alt="">
+                    </div>
+                    <img class="profileImg" src="Assets/profile_img3.png" alt="user1">
+                    <h3>Sruthi</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------ Brands --- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row" >
+                <div class="col-5">
+                    <img src="Assets/brand1.png" alt="brand1">
+                </div>
+                <div class="col-5">
+                    <img src="Assets/brand2.png" alt="brand2">
+                </div>
+                <div class="col-5">
+                    <img src="Assets/brand3.jpg" alt="brand3">
+                </div>
+                <div class="col-5">
+                    <img src="Assets/brand4.png" alt="brand4">
+                </div>
+                <div class="col-5">
+                    <img src="Assets/brand5.png" alt="brand5">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------about----- -->
+<div class="about" id="about">
+    <div class="container">
+        <h1>About Remya Furniture</h1>
+        <p>Remya Furniture furniture eternally been a part of your home's interiors, knowingly or unknowingly taking space in the form of a simple plastic chair in your living room or an entire furniture set in your bedrooms or offices adding  both emotion and charm to your sheen interiors.
+        Remya Furniture aims to bring quality and budget friendly furniture to everyone.
+        With plethora of trending yet quality products, Remya Furniture has been providing the best furnishing expeience to it's customers.</p>
+    </div>
+</div>
+
+<!-- ---contact---- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Contact</h1>
+                <p>+91 8289959732</p>
+                <p>You can reach us 7 days a week. <br>Chat with us or call between <time datetime="10:00">10.00 am</time> to <time datetime="07:00">7.00 pm</time>.</p>
+                <p>furniture.enquiry@remyafurniture.com</p>
+                <p>77/78, Neela Complex, Kacheri Junction, Attingal(po), Trivandrum - 695101</p>
+            </div>
+            <div class="col-2">
+                <a href="https://www.quickerala.com/trivandrum/attingal/remya-agency/428784#google_vignette"><img class="store" src="Assets/store_img.png" alt="Image of store"> </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------footer--- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for android and ios mobile phone</p>
+                    <div class="app-logo" >
+                        <img src="Assets/play_store.png" alt="playstore">
+                        <img src="Assets/app_store.png" alt="appstore">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/logo.png" alt="logo" width="50px">
+                    <p>Download App for android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>BLOG POST</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><img src="Assets/facebook.svg" alt="Facebook"><p>Facebook</p></li>
+                        <li><img src="Assets/youtube.svg" alt="Youtube"><p>Youtube</p></li>
+                        <li><img src="Assets/whatsapp.svg" alt="Whatsapp"><p>Whatsapp</p></li>
+                        <li><img src="Assets/instagram.svg" alt="Instagram"><p>Instagram</p></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 Remya furniture. All Rights Reserved. </p>
+        </div>
+    </div>
+<script>
+  
+    var MenuItems=document.getElementById("menuitems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "250px";
+    }else{
+        MenuItems.style.maxHeight = "0px";
+    }
+}
+</script>
+</body>
+</html>

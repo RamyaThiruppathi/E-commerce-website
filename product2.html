@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products Remya Furniture E-commerce website</title>
+    <link rel="icon" href="Assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/logo.png" width="100px" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product1.html">Product</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="Assets/search_icon.png" alt="" class="search" />
+                <a href="cart.html"><img src="Assets/cart.png" alt="cart" width="30px" height="30px"></a>
+                <img src="Assets/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option value="">Default sorting</option>
+                <option value="">Sort by Price</option>
+                <option value="">Sort by populairty</option>
+                <option value="">Sort by Rating</option>
+                <option value="">Sort by initial-scale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Assets/related1.png" alt="Bed">
+                <h4>Dexter Solid Wood King Bed</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;34,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;59,000</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related2.png" alt="Recliner">
+                <h4>Sierra Manual Recliner Sofa</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;17,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;47,900</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related3.png" alt="Wardrobe">
+                <h4>Mozart 4 Door Wardrobe</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;29,600 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;47,500</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related4.png" alt="Dining table">
+                <h4>Halo 5 Tier Storage Cabinet</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;3,500 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;6,900</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Assets/related5.png" alt="Desk">
+                <h4>Mastermind Bench Desk </h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;14,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;20,400</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related6.png" alt="Bed">
+                <h4>Crossett Metal Bunk Bed</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;17,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;24,600</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related7.png" alt="table">
+                <h4>Zen Portable Laptop Desk</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;1,090 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;1,800</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related8.png" alt="chair">
+                <h4>Plastic Arm Chair</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;1,240 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;1,550</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Assets/related9.png" alt="Cabinet Set">
+                <h4>Glory Plastic Cabinet Set With Mirror and LED Diffused Light</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;5,360 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;7,000</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related10.png" alt="wardrobe">
+                <h4>Mercury 2 Door Steel Wardrobe(Brown/White)</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;19,900 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;33,000</span></p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src="Assets/related11.png" alt="Dining Table"></a>
+                <h4>Jade 6 Seater Dining Table(Brown)</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;18,500 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;37,000</span></p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/related12.png" alt="Sofa">
+                <h4>Goa Sofa Set With Cushion (3+1+1 Seater)</h4>
+                <div class="rating">
+                    <img src="Assets/rating_stars.png" alt="">
+                </div>
+                <p>&#8377;26,310 &nbsp;&nbsp;&nbsp; <span class="strike">&#8377;32,200</span></p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <a href="product1.html"><span>&#8592;</span></a>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+        </div>
+    </div>  
+<!-- ------about----- -->
+<div class="about" id="about">
+    <div class="container">
+        <h1>About Remya Furniture</h1>
+        <p>Remya Furniture furniture eternally been a part of your home's interiors, knowingly or unknowingly taking space in the form of a simple plastic chair in your living room or an entire furniture set in your bedrooms or offices adding  both emotion and charm to your sheen interiors.
+        Remya Furniture aims to bring quality and budget friendly furniture to everyone.
+        With plethora of trending yet quality products, Remya Furniture has been providing the best furnishing expeience to it's customers.</p>
+    </div>
+</div>
+
+<!-- ---contact---- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Contact</h1>
+                <p>+91 8289959732</p>
+                <p>You can reach us 7 days a week. <br>Chat with us or call between <time datetime="10:00">10.00 am</time> to <time datetime="07:00">7.00 pm</time>.</p>
+                <p>furniture.enquiry@remyafurniture.com</p>
+                <p>77/78, Neela Complex, Kacheri Junction, Attingal(po), Trivandrum - 695101</p>
+            </div>
+            <div class="col-2">
+                <a href="https://www.quickerala.com/trivandrum/attingal/remya-agency/428784#google_vignette"><img class="store" src="Assets/store_img.png" alt="Image of store"> </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------footer--- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Assets/play_store.png" alt="playstore">
+                        <img src="Assets/app_store.png" alt="appstore">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/logo.png" alt="logo">
+                    <p>Download App for android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>BLOG POST</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><img src="Assets/facebook.svg" alt="Facebook"><p>Facebook</p></li>
+                        <li><img src="Assets/youtube.svg" alt="Youtube"><p>Youtube</p></li>
+                        <li><img src="Assets/whatsapp.svg" alt="Whatsapp"><p>Whatsapp</p></li>
+                        <li><img src="Assets/instagram.svg" alt="Instagram"><p>Instagram</p></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 Remya furniture. All Rights Reserved.</p>
+        </div>
+    </div>
+<script>
+    var MenuItems=document.getElementById("menuitems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "250px";
+    }else{
+        MenuItems.style.maxHeight = "0px";
+    }
+}
+</script>
+</body>
+</html>

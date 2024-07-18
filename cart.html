@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shopping Cart Remya Furniture E-commerce website</title>
+    <link rel="icon" href="Assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/logo.png" width="100px" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product1.html">Product</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Assets/cart.png" alt="cart" width="30px" height="30px"></a>
+                <img src="Assets/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <!-- ----cart item details--- -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/latest7.png" alt="" >
+                        <div>
+                            <p>Mozart Queen Bed With Storage (walnut)</p>
+                            <small>Price: &#8377;19700</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;19700</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/feature4.png" alt="" >
+                        <div>
+                            <p>Skelton 3 Seater Recliner (Velvet Brown)</p>
+                            <small>Price: &#8377;41000</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;41000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/top_pick1.png" alt="" >
+                        <div>
+                            <p>Greta Wall Unit</p>
+                            <small>Price: &#8377;18000</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;18000</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>&#8377;83000</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>&#8377;4000</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8377;87000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="checkout">
+            <a href=""><button class="btn">
+                Proceed to Checkout
+            </button></a>
+        </div>
+    </div>
+    <!------footer--- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Assets/play_store.png" alt="playstore">
+                        <img src="Assets/app_store.png" alt="appstore">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/logo.png" alt="logo">
+                    <p>Download App for android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>BLOG POST</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 Remya furniture. All Rights Reserved.</p>
+        </div>
+    </div>
+    
+<script>
+
+    var MenuItems=document.getElementById("menuitems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "250px";
+    }else{
+        MenuItems.style.maxHeight = "0px";
+    }
+    }
+
+</script>
+
+
+</body>
+</html>
